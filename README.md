@@ -1,2 +1,2 @@
 # GuessingGame
-uh. guessing game.
+Guessing game for C++
