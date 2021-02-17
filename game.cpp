@@ -17,7 +17,7 @@ int main()
 	srand(time(0));
 
 	while (playing == true)
-    {
+    	{
 		//initialize guess counter and actual answer
 		int counter = 0;
 		answer = rand() % 100;
@@ -45,13 +45,13 @@ int main()
 		cout << "Play again? Y/N\n\n";
 		cin >> f;
 		if (f == 'y')
-        {
+        	{
 			playing = true;
-        }
+        	}
 		else
-        {
+        	{
 			playing = false;
-        }
+        	}
     }
-	return 0;
+return 0;
 }
